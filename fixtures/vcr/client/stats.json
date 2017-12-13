@@ -1,0 +1,24 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "http://127.0.0.1:4646/v1/client/stats"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"AllocDirStats\":{\"Available\":133746081792,\"Device\":\"\",\"InodesUsedPercent\":0.11791894259038894,\"Mountpoint\":\"\",\"Size\":499065712640,\"Used\":365057486848,\"UsedPercent\":73.14818020995433},\"CPU\":[{\"CPU\":\"cpu0\",\"Idle\":76.0,\"System\":10.0,\"Total\":24.0,\"User\":14.000000000000002},{\"CPU\":\"cpu1\",\"Idle\":97.02970297029702,\"System\":1.9801980198019802,\"Total\":2.9702970297029703,\"User\":0.9900990099009901},{\"CPU\":\"cpu2\",\"Idle\":77.22772277227723,\"System\":7.920792079207921,\"Total\":22.772277227722775,\"User\":14.85148514851485},{\"CPU\":\"cpu3\",\"Idle\":98.98989898989899,\"System\":1.0101010101010102,\"Total\":1.0101010101010102,\"User\":0.0},{\"CPU\":\"cpu4\",\"Idle\":81.1881188118812,\"System\":7.920792079207921,\"Total\":18.81188118811881,\"User\":10.891089108910892},{\"CPU\":\"cpu5\",\"Idle\":98.0,\"System\":1.0,\"Total\":2.0,\"User\":1.0},{\"CPU\":\"cpu6\",\"Idle\":76.0,\"System\":8.0,\"Total\":24.0,\"User\":16.0},{\"CPU\":\"cpu7\",\"Idle\":97.02970297029702,\"System\":1.9801980198019802,\"Total\":2.9702970297029703,\"User\":0.9900990099009901}],\"CPUTicksConsumed\":2266.3016301630164,\"DiskStats\":[{\"Available\":133746081792,\"Device\":\"/dev/disk1\",\"InodesUsedPercent\":0.11791894259038894,\"Mountpoint\":\"/\",\"Size\":499065712640,\"Used\":365057486848,\"UsedPercent\":73.14818020995433}],\"Memory\":{\"Available\":2783879168,\"Free\":1774817280,\"Total\":17179869184,\"Used\":14395990016},\"Timestamp\":1513199657362155240,\"Uptime\":1399847}",
+      "headers": {
+        "Content-Type": "application/json",
+        "Vary": "Accept-Encoding",
+        "Date": "Wed, 13 Dec 2017 21:14:18 GMT",
+        "Content-Length": "1355"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
