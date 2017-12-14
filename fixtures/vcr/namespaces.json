@@ -6,18 +6,18 @@
       "method": "get",
       "options": [],
       "request_body": "",
-      "url": "http://127.0.0.1:4646/v1/acl/policies"
+      "url": "http://127.0.0.1:4646/v1/namespaces"
     },
     "response": {
       "binary": false,
-      "body": "ACL support disabled",
+      "body": "Nomad Enterprise only endpoint",
       "headers": {
         "Vary": "Accept-Encoding",
         "Date": "Thu, 14 Dec 2017 17:09:59 GMT",
-        "Content-Length": "20",
+        "Content-Length": "30",
         "Content-Type": "text/plain; charset=utf-8"
       },
-      "status_code": 500,
+      "status_code": 501,
       "type": "ok"
     }
   }
