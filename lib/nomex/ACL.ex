@@ -35,6 +35,14 @@ defmodule Nomex.ACL do
     ]
   end
 
+  def bootstrap do
+    Request.request(:post, ["/acl/bootstrap", ""])
+  end
+
+  def bootstrap! do
+    Request.request!(:post, ["/acl/bootstrap", ""])
+  end
+
   defp create_or_update_path(name) do
     Path.join "/acl/policy", name
   end
