@@ -12,4 +12,12 @@ defmodule Nomex.System do
   def gc! do
     Request.request!(:put, ["/system/gc", ""])
   end
+
+  def reconcile_summaries do
+    Request.request(:put, ["/system/reconcile/summaries", ""])
+  end
+
+  def reconsile_summaries! do
+    Request.request!(:put, ["/system/reconcile/summaries", ""])
+  end
 end
