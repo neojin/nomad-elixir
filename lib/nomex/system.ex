@@ -17,7 +17,7 @@ defmodule Nomex.System do
     Request.request(:put, ["/system/reconcile/summaries", ""])
   end
 
-  def reconsile_summaries! do
+  def reconcile_summaries! do
     Request.request!(:put, ["/system/reconcile/summaries", ""])
   end
 end
